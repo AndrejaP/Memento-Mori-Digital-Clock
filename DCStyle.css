@@ -1,0 +1,73 @@
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Special Elite', cursive;  
+}  
+
+.wrapper {
+	
+  background-image: url("rita.jpg");
+	background-size: cover;
+  width: 830px;
+  height: 580px;
+	border: 10px solid #6699CC;
+  border-radius: 40px;
+	margin: 38px auto;
+	box-shadow: 10px 10px 5px dimgray;
+	
+	
+}	
+
+.main {
+   background:  #6699CC;
+   width: 330px;
+   height: 115px;
+   margin: 100px auto;
+   position: relative;
+   padding: 20px;
+   border-radius: 70px;
+	 box-shadow: 10px 7px 8px #54453b;
+}   
+
+.badge {
+	width: 200px;
+	background: #6699CC;
+	color: white;
+	text-shadow: 3px 3px 2px midnightblue;
+	padding: 10px 5px 2px 5px;
+	position: absolute;
+	top: -13px;
+	left: 19%;
+	border-radius: 15px;
+	text-align: center;
+}	
+
+.clock {
+	background: gray;
+	color: #EBEBEB;
+	text-align: left;
+	text-shadow: 5px 5px 2px dimgray;
+	font-size: 58px;
+	height: 100%;
+	padding-left: 23px;
+	padding-top: 17px;
+	border-radius: 43px;
+	
+}
+p {
+	color: white;
+	position: relative;
+	font-size: 40px;
+	width: 150px;
+	padding-top: 85px;
+	text-align: center;
+	margin: 25px auto;
+	text-shadow: 5px 5px 3px #645246;
+	
+}	
+
+  
