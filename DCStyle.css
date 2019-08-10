@@ -1,36 +1,36 @@
-
-
-
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Special Elite', cursive;  
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Special Elite', cursive; 
 }  
 
+body {
+	background: #19334d;
+	display: flex;
+}
+
 .wrapper {
-	
-  background-image: url("rita.jpg");
+
+	background-image: url("rita.jpg");
 	background-size: cover;
-  width: 830px;
-  height: 580px;
+	width: 830px;
+	height: 580px;
 	border: 10px solid #6699CC;
-  border-radius: 40px;
-	margin: 38px auto;
-	box-shadow: 10px 10px 5px dimgray;
-	
-	
+	border-radius: 40px;
+	margin: auto;
+	box-shadow: 10px 10px 8px #000;
 }	
 
 .main {
-   background:  #6699CC;
-   width: 330px;
-   height: 115px;
-   margin: 100px auto;
-   position: relative;
-   padding: 20px;
-   border-radius: 70px;
-	 box-shadow: 10px 7px 8px #54453b;
+	background:  #6699CC;
+	width: 330px;
+	height: 115px;
+	margin: 100px auto;
+	position: relative;
+	padding: 20px;
+	border-radius: 70px;
+	box-shadow: 10px 7px 8px #222;
 }   
 
 .badge {
@@ -47,17 +47,17 @@
 }	
 
 .clock {
-	background: gray;
+	background: #204060;
 	color: #EBEBEB;
 	text-align: left;
-	text-shadow: 5px 5px 2px dimgray;
+	text-shadow: 5px 5px 3px #222;
 	font-size: 58px;
 	height: 100%;
 	padding-left: 23px;
 	padding-top: 17px;
 	border-radius: 43px;
-	
-}
+	}
+
 p {
 	color: white;
 	position: relative;
